@@ -4,6 +4,8 @@ import User from './Components/User'
 import Parents from './context/Parents'
 import Parents1 from './context2/Parents1'
 import Context001 from './context3/Context001'
+import UseMemo from './useMemo/UseMemo'
+import UseCallback from './useCallback/UseCallback'
 // import './Product.css'
 const App = () => {
   return (
@@ -16,7 +18,11 @@ const App = () => {
 
       {/* <Parents1 /> */}
 
-      <Context001 />
+      {/* <Context001 /> */}
+
+      {/* <UseMemo /> */}
+
+      <UseCallback />
     </div>
   )
 }
